@@ -1,19 +1,10 @@
-name: 'AWS Security Group Add IP'
-description: 'Add IP address to your AWS security group'
-author: 'Sohel Amin'
+name: 'AWS Security Group Add IP - OIDC'
+description: 'Add IP address to your AWS security group - OIDC support'
+author: 'Anne Macedo'
 branding:
   icon: 'lock'
   color: 'red'
 inputs:
-  aws-access-key-id:
-    description: 'AWS Access Key ID'
-    required: true
-  aws-secret-access-key:
-    description: 'AWS Secret Access Key'
-    required: true
-  aws-region:
-    description: 'AWS Region'
-    required: true
   aws-security-group-id:
     description: 'AWS Security Group'
     required: true
